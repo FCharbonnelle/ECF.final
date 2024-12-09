@@ -1,0 +1,15 @@
+{
+    "name": "Prosciutto",
+    "image": "images/proscuito.jpg",
+    "ingredients": [
+        "Pâte à pizza ronde et épaisse",
+        "6 cuillerées à soupe de crème fraiche",
+        "1 boule de mozzarella",
+        "2 gousses d’ail",
+        "Roquette",
+        "Jambon cru",
+        "Sel",
+        "Poivre"
+    ],
+    "price": 13
+}

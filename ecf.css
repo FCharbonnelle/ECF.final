@@ -1,0 +1,215 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/fond-ardoise-noir-blanc-2048x1536.jpg);
+    max-width: 1920px;
+    max-height: 1080px;
+    border-radius: 20px;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: url(images/header_menu_26.jpg);
+    background-size: cover;
+    color: #fff;
+    padding: 20px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    height: auto;
+}
+
+.titre {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    max-width: 97%;
+}
+
+h1 {
+    text-align: center;
+    color: orange;
+}
+
+h2 {
+    text-align: center;
+}
+
+#commande {
+    margin-top: 20px;
+}
+
+#liste-pizzas {
+    list-style-type: none;
+    padding: 0;
+}
+
+#liste-pizzas li {
+    margin-bottom: 10px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+table {
+    color: white;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+.pizza-card {
+    background-color: #d3d3d3;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+.pizza-card:hover {
+    background-color: #c0c0c0;
+}
+
+#panier {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#panier h2 {
+    margin-top: 0;
+}
+
+#pizzas {
+    margin-bottom: 2rem;
+}
+
+.card {
+    margin-bottom: 1rem;
+}
+
+.card-body{
+    background-color: #9c9c9c;
+}
+
+.card.h-100 {
+    background-color:#9c9c9c;
+}
+
+img {
+    height: 50%;
+    border-radius: 1rem;
+}
+
+/* Styles pour les tablettes */
+@media (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titre {
+        margin-left: 0;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input {
+        max-width: 90%;
+    }
+}
+
+/* Styles pour les mobiles */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titre {
+        margin-left: 0;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input {
+        max-width: 90%;
+    }
+
+    button[type="submit"] {
+        width: 100%;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    th, td {
+        display: inline-block;
+        margin: 5px;
+    }
+}
